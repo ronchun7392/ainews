@@ -1,0 +1,22 @@
+name: Ai news
+author: 
+url: 
+baseurl: 
+resume_site: 
+description: Focus on cutting-edge developments in the global AI field, covering popular AI news such as corporate updates, product launches, and policy interpretations.
+github_username: 
+github: 
+plugins: [jekyll-paginate]
+permalink: /:year-:month-:day-:title
+paginate: 12
+paginate_path: "/page/:num/"
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+highlighter: rouge
+markdown: kramdown
+comments :
+  gitalk :
+    clientID : 
+    clientSecret : 
+    repo : 
+    owner : 
+    admin : 

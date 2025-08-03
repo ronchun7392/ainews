@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+<body class="bg-grey" gtools_scp_screen_capture_injected="true">
+
+    {% include header.html %}
+
+    <!-- 全站搜索结果展示区 -->
+    <div id="global-search-results" style="display:none; position:absolute; left:0; right:0; top:70px; z-index:99; background:#fff; box-shadow:0 4px 24px rgba(0,0,0,0.08); max-width:700px; margin:0 auto; border-radius:10px; padding:20px 30px; min-height:40px;"></div>
+
+    {{ content }}
+    
+    {% include footer.html %}
+
+<!-- 全站搜索JS -->
+<script>
+(function() {
+  let posts = [];
+  let searchInput = document.getElementById('global-search-input');
+  let resultsBox = document.getElementById('global-search-results');
+  if (!searchInput) return;
+  fetch('/search.json').then(res => res.json()).then(data => { posts = data; });
+  searchInput.addEventListener('input', function(e) {
+    const kw = e.target.value.trim().toLowerCase();
+    if (!kw) {
+      resultsBox.style.display = 'none';
+      resultsBox.innerHTML = '';
+      return;
+    }
+    const filtered = posts.filter(post =>
+      post.title.toLowerCase().includes(kw) ||
+      post.content.toLowerCase().includes(kw)
+    );
+    if (filtered.length === 0) {
+      resultsBox.style.display = 'block';
+      resultsBox.innerHTML = '<div style="text-align:center;color:#888;">没有找到相关内容</div>';
+      return;
+    }
+    resultsBox.style.display = 'block';
+    resultsBox.innerHTML = filtered.map(post => `
+      <div style="padding:10px 0; border-bottom:1px solid #f0f0f0;">
+        <a href="${post.url}" style="font-size:17px; color:#222; font-weight:500;">${post.title}</a>
+        <div style="font-size:14px; color:#888; margin-top:2px;">${post.content}</div>
+      </div>
+    `).join('');
+  });
+  // 点击空白处关闭搜索结果
+  document.addEventListener('click', function(e) {
+    if (!resultsBox.contains(e.target) && e.target !== searchInput) {
+      resultsBox.style.display = 'none';
+    }
+  });
+})();
+</script>
+
+  </body>
+</html>

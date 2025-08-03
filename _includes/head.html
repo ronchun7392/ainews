@@ -1,0 +1,114 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-transform"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    
+    <!-- SEO优化的title，限制80个字符 -->
+    {% if page.title %}
+        {% assign page_title = page.title | truncate: 80 %}
+        {% if page.layout == 'post' %}
+            <title>{{ page_title }} - {{ site.name }}</title>
+        {% else %}
+            <title>{{ page_title }}</title>
+        {% endif %}
+    {% else %}
+        <title>{{ site.name }}</title>
+    {% endif %}
+    
+    <!-- SEO优化的description，限制200个字符 -->
+    {% if page.description %}
+        <meta name="description" content="{{ page.description | strip_html | truncate: 200 }}">
+    {% elsif page.excerpt %}
+        <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}">
+    {% elsif page.content %}
+        {% assign content_description = page.content | strip_html | strip_newlines | truncate: 200 %}
+        {% if content_description != "" %}
+            <meta name="description" content="{{ content_description }}">
+        {% else %}
+            <meta name="description" content="{{ site.description | default: 'AI News and Technology Information' | truncate: 200 }}">
+        {% endif %}
+    {% else %}
+        <meta name="description" content="{{ site.description | default: 'AI News and Technology Information' | truncate: 200 }}">
+    {% endif %}
+    
+    <!-- SEO优化的keywords，限制100个字符 -->
+    {% if page.keywords %}
+        <meta name="keywords" content="{{ page.keywords | truncate: 100 }}">
+    {% elsif page.tags and page.tags.size > 0 %}
+        {% assign keywords = page.tags | join: ', ' %}
+        <meta name="keywords" content="{{ keywords | truncate: 100 }}">
+    {% elsif page.category %}
+        <meta name="keywords" content="{{ page.category }}, {{ site.name | default: 'AI News' }}">
+    {% else %}
+        <meta name="keywords" content="AI, Artificial Intelligence, Technology News, {{ site.name | default: 'AI News' }}">
+    {% endif %}
+    
+    <!-- 作者信息 -->
+    {% if site.author %}
+        <meta name="author" content="{{ site.author }}">
+    {% endif %}
+    
+    <!-- Open Graph标签 -->
+    {% if page.title %}
+        <meta property="og:title" content="{{ page.title | truncate: 80 }}">
+    {% else %}
+        <meta property="og:title" content="{{ site.name }}">
+    {% endif %}
+    
+    {% if page.description %}
+        <meta property="og:description" content="{{ page.description | strip_html | truncate: 200 }}">
+    {% elsif page.excerpt %}
+        <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 200 }}">
+    {% else %}
+        <meta property="og:description" content="{{ site.description | truncate: 200 }}">
+    {% endif %}
+    
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    
+    {% if page.thumbnail %}
+        <meta property="og:image" content="{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+    
+    <!-- Twitter Card标签 -->
+    <meta name="twitter:card" content="summary">
+    {% if page.title %}
+        <meta name="twitter:title" content="{{ page.title | truncate: 80 }}">
+    {% else %}
+        <meta name="twitter:title" content="{{ site.name }}">
+    {% endif %}
+    
+    {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description | strip_html | truncate: 200 }}">
+    {% elsif page.excerpt %}
+        <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 200 }}">
+    {% else %}
+        <meta name="twitter:description" content="{{ site.description | truncate: 200 }}">
+    {% endif %}
+    
+    <!-- 网站图标 -->
+	<link rel="shortcut icon" href="{{ '/style/image/favicon.png' | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" href="{{ '/style/image/favicon.png' | prepend: site.baseurl }}"/>
+    
+    <!-- 样式表 -->
+    <link href="{{ '/style/css/highlight.min.css' | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ '/style/css/style.min.css' | prepend: site.baseurl }}" rel="stylesheet">
+	<link rel="stylesheet" href="{{ '/style/css/iconfont/iconfont.css' | prepend: site.baseurl }}">
+    
+    <!-- 标签链接样式 -->
+    <style>
+        .tag-link-inline {
+            color: #007acc;
+            text-decoration: none;
+            border-bottom: 1px dotted #007acc;
+        }
+        .tag-link-inline:hover {
+            color: #005a9e;
+            border-bottom-style: solid;
+        }
+    </style>
+</head>

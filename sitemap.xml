@@ -1,0 +1,72 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- 首页 -->
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- 文章页面 -->
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  <!-- 静态页面 -->
+  {% for page in site.pages %}
+    {% unless page.url contains '/tags/' %}
+      {% unless page.url contains '/404' %}
+        {% unless page.url contains '/search' %}
+          <url>
+            <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+            <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.6</priority>
+          </url>
+        {% endunless %}
+      {% endunless %}
+    {% endunless %}
+  {% endfor %}
+  
+  <!-- 标签页面 -->
+  {% assign tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq %}
+  {% for tag in tags %}
+    {% if tag != '' %}
+    <url>
+      <loc>{{ site.url }}{{ site.baseurl }}/tags/{{ tag }}.html</loc>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    {% endif %}
+  {% endfor %}
+  
+  <!-- 归档页面 -->
+  {% if site.data.navigation.archives %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/archives.html</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {% endif %}
+  
+  <!-- 关于页面 -->
+  {% if site.data.navigation.about %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/about.html</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  {% endif %}
+</urlset> 
