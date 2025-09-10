@@ -20,7 +20,8 @@
   let posts = [];
   let searchInput = document.getElementById('global-search-input');
   let resultsBox = document.getElementById('global-search-results');
-  if (!searchInput) return;
+  // 添加对resultsBox的空值检查
+  if (!searchInput || !resultsBox) return;
   fetch('/search.json').then(res => res.json()).then(data => { posts = data; });
   searchInput.addEventListener('input', function(e) {
     const kw = e.target.value.trim().toLowerCase();
