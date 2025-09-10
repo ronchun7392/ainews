@@ -3,7 +3,7 @@ layout: post
 title: AlphaGo author leads, 8 robotic arms work together without collision, DeepMind new work published in Science sub journal
 date: 2025-09-09 12:00:00 +0800
 category: Frontier Trends
-thumbnail: /style/20250909-1.png
+thumbnail: /style/image/20250909-1.png
 icon: book
 ---
 * content
