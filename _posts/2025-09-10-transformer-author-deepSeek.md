@@ -3,7 +3,7 @@ layout: post
 title: Transformer author-DeepSeek is the only one who can make a difference, OpenAI can't rely on it anymore
 date: 2025-09-10 04:23:00 +0800
 category: Frontier Trends
-thumbnail: /style/image/20250910-1.png
+thumbnail: /style/image/20250910-2.png
 icon: chat
 ---
 * content
