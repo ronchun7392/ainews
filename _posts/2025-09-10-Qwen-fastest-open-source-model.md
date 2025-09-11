@@ -121,6 +121,7 @@ Technical report:
 https://k2think-about.pages.dev/assets/tech-report/K2-Think \_Tech-Report.pdf
 
 Reference link:
+
 \[1\] https://www.k2think.ai/k2think   
 \[2\] https://x.com/mbzuai/status/1965386234559086943   
 \[3\] https://huggingface.co/LLM360/K2-Think   
