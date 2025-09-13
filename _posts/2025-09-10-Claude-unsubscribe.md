@@ -13,15 +13,15 @@ Claude's major crisis is not due to recent unethical practices, but rather a pro
 
 AI engineers have taken the lead in calling for everyone to unsubscribe (PoS here refers to Piece of Shit, which is a lump!)
 
-![图片](/style/image/2025-09-10-2/1.pnd)
+![图片](/style/image/2025-09-10-2/1.png)
 
 There are only over 2000 likes, and many have actually unsubscribed.
 
-![图片](/style/image/2025-09-10-2/2.pnd)
+![图片](/style/image/2025-09-10-2/2.png)
 
 There are heavy users among the unsubscribers who have the highest price of 20 times the Max package.
 
-![图片](/style/image/2025-09-10-2/3.pnd)
+![图片](/style/image/2025-09-10-2/3.png)
 
 Why did Anthropic, which originally had a good reputation in the developer community and even had an estimated annual revenue of $500 million per product for Claude Code, offend the public?
 
@@ -49,11 +49,11 @@ Engineer Ahmad Osman counts several major charges:
 
 It's not even finished yet, you can imagine how angry this developer is.
 
-![图片](/style/image/2025-09-10-2/4.pnd)
+![图片](/style/image/2025-09-10-2/4.png)
 
 Someone added in the comment section that the worst thing is that the model quietly deteriorates, and you waste an hour realizing that no professional development environment cannot fix the version.
 
-![图片](/style/image/2025-09-10-2/5.pnd)
+![图片](/style/image/2025-09-10-2/5.png)
 
 Okay, now I've cursed and quit, but I still have to do the work. I can't go back to manual coding in ancient ways, can I.
 
@@ -65,7 +65,7 @@ Many people have turned to OpenAI Codex next door, even alarming Ultraman Benman
 
 If you had opened Claude Code on Reddit a few days ago, you would have found that no matter how much it was all about discussing OpenAI Codex, you would have suspected that you might have gone through the wrong path.
 
-![图片](/style/image/2025-09-10-2/6.pnd)
+![图片](/style/image/2025-09-10-2/6.png)
 
 However, there are also die hard fans who intentionally say the opposite: 'You all go to Codex, so no one will squeeze Claude's server with me.'.
 
@@ -73,7 +73,7 @@ However, regardless, such a trend has already emerged in the hub of Claude Code 
 
 The bar owner also came out to prove that they did not charge any advertising fees, and these posts were all posted by real users themselves, so we have no reason to delete them.
 
-![图片](/style/image/2025-09-10-2/7.pnd)
+![图片](/style/image/2025-09-10-2/7.png)
 
 OpenAI CEO Ultraman, upon learning of it, said, 'Why don't you believe it? It looks like an AI post.'.
 
@@ -83,11 +83,11 @@ Then give a conjecture that people who heavily use AI have been infected by the 
 
 The ultimate effect is that more AI related posts look like they were written by AI, which was not the case two years ago.
 
-![图片](/style/image/2025-09-10-2/8.pnd)
+![图片](/style/image/2025-09-10-2/8.png)
 
 Excluding Claude's off field factors, OpenAI Codex itself has indeed shown good development momentum, with a tenfold increase in usage within two weeks after integrating GPT-5.
 
-![图片](/style/image/2025-09-10-2/9.pnd)
+![图片](/style/image/2025-09-10-2/9.png)
 
 Some people also believe that the interface and user experience of Codex may seem "somewhat primitive" compared to Claude Code, but it cannot be denied that GPT-5 is a powerful model in programming.
 
@@ -97,17 +97,17 @@ The reputation crisis that Claude has encountered has led to more attempts at do
 
 Ahmad, who took the lead in unsubscribing Claude, recommended GLM 4.5 from Zhipu.
 
-![图片](/style/image/2025-09-10-2/10.pnd)
+![图片](/style/image/2025-09-10-2/10.png)
 
 Some people also choose Trae IDE produced by ByteDance in the comment section.
 
-![图片](/style/image/2025-09-10-2/11.pnd)
+![图片](/style/image/2025-09-10-2/11.png)
 
 Claude Code and OpenAI Codex have made the CLI (Command Line Interface) AI programming mode more valued by the industry.
 
 Tencent has just launched its CLI AI programming product Codebuddy Code.
 
-![图片](/style/image/2025-09-10-2/12.pnd)
+![图片](/style/image/2025-09-10-2/12.png)
 
 Why are CLI tools becoming increasingly popular among developers in AI programming compared to traditional IDE (Integrated Development Environment)? It can be summarized from several aspects.
 
