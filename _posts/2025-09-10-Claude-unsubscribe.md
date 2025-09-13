@@ -11,7 +11,8 @@ icon: lock
 
 Claude's major crisis is not due to recent unethical practices, but rather a problem with the product itself.
 
-AI engineers have taken the lead in calling for everyone to unsubscribe (PoS here refers to Piece of Shit, which is a lump!)! [ 💩]
+AI engineers have taken the lead in calling for everyone to unsubscribe (PoS here refers to Piece of Shit, which is a lump!)
+
 ![图片](/style/image/2025-09-10-2/1.pnd)
 
 There are only over 2000 likes, and many have actually unsubscribed.
