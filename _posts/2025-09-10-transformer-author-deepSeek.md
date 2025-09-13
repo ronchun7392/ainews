@@ -13,7 +13,7 @@ icon: chat
 
 The person who said this was none other than the renowned inventor of the Transformer, Ashish Vaswani.
 
-![图片](/style/image/2025-09-10/1.jpeg)
+![图片](/style/image/2025-09-10-1/1.jpeg)
 
 The big shot said this because he felt that closed source vendors such as OpenAI were blinded by commercialization and had no intention of doing basic research.
 
