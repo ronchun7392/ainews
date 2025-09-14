@@ -88,7 +88,7 @@ On September 14, 2015, LIGO successfully detected gravitational waves for the fi
 
 The three outstanding contributors to the LIGO project, Professor Rainer Weiss, Professor Kip Stephen Thorne, and Professor Barry Clark Barish, were also awarded the 2017 Nobel Prize in Physics for their contributions.
 
-![图片](/style/image/2025-09-13/7.png)
+![图片](/style/image/2025-09-13/7.jpeg)
 
 From left to right: Rainer Weiss, Kip Stephen Thorne, Barry Clark Barish
 
