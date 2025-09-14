@@ -98,5 +98,7 @@ Is it because the smell of old money is too strong?
 Reference link:
 
 [1] https://x.com/rohanpaul_ai/status/1965887164887056667
+
 [2] https://www.businessinsider.com/larry-ellison-net-worth-elon-musk-richest-person-oracle-stock-2025-9
+
 [3] https://www.theverge.com/ai-artificial-intelligence/776170/oracle-openai-300-billion-contract-project-stargate
