@@ -1,113 +1,161 @@
 ---
 layout: post
-title: How are 700 million people using ChatGPT every week? OpenAI's most comprehensive report has arrived
-date: 2025-09-16 16:00:00 +0800
+title: Elon Musk lays off 500 employees over the weekend
+date: 2025-09-17 18:00:00 +0800
 category: Frontier Trends
-thumbnail: /style/image/20250916-1.png
-icon: code
+thumbnail: /style/image/20250917.png
+icon: chat
 ---
 * content
 {:toc}
 
 
-T#How are 700 million people using ChatGPT every week? OpenAI's most comprehensive report has arrived
+#Elon Musk lays off 500 employees over the weekend
 
-The first comprehensive ChatGPT user research report is here!
+What kind of situation does the person who helped Musk train the big model say they are unemployed?
 
-Just now, OpenAI and Harvard economist David Deming published a new paper——
+Last Thursday evening, xAI conducted an internal surprise test and required employees to complete and submit it by the next morning.
 
-The title is' How People Use ChatGPT ', which provides a detailed discussion on the usage of ChatGPT from its launch in November 2022 to July 2025.
+This is not a simple in class test——
 
-![图片](/style/image/2025-09-16-1/1.png)
+As of now, the elimination rate of xAI's internal testing is as high as 33%, and over 500 employees have been notified to leave.
 
-Why launch the report at this node, perhaps it is also related to the phased achievements of ChatGPT.
+![图片](/style/image/2025-09-17/1.png)
 
-As of July this year, the weekly active users of ChatGPT have exceeded 700 million, and the total number of messages sent per week has reached 18 billion.
+##Musk's layoff style assessment
 
-In the face of this huge user base and message volume, the paper aims to understand the core of * * 1.5 million * * large-scale conversations through analysis:
+The data annotation team was once the largest team in xAI and played a key role in the development process of Grok. Their job is to label, classify, and place raw data in specific contexts, teaching AI how to better understand the world.
 
-+What are people doing with ChatGPT?
-    
-+Who is using ChatGPT?
-    
+Since the establishment of xAI, the size of the data annotation team has been continuously growing.
 
-If you are also interested in these questions, why not continue reading——
+**Unlike most artificial intelligence companies, many data annotators at xAI are hired directly, rather than outsourced. Through this approach, companies can have more control over model training and better privacy.
 
-##What do people do with ChatGPT?
+But correspondingly, the cost is also higher.
 
-For the first question, it is important to emphasize one point:
+In February of this year, xAI disclosed plans to hire thousands of people to help train Grok and added about 700 data annotators within six months.
 
-Unlike previous methods based on questionnaire surveys, this time the research team mainly relies on internal dialogue data, uses automated classifiers, and combines privacy protection methods to analyze the actual usage of ChatGPT, which can be said to be more scientific and reasonable.
+![图片](/style/image/2025-09-17/2.png)
 
-The specific dataset can be divided into three categories:
+However, in early September, the LinkedIn page showed that at least 9 out of the dozen managers responsible for managing the data annotation team had been fired.
 
-1. Growth Dataset: The total amount of messages and basic demographic statistics for all consumer plans (Free/Plus/Pro) from November 2022 to September 2025.
+This unusual personnel change has planted the seeds for the upcoming intense turbulence.
 
-2. Classification message sample: From May 2024 to June 2025, approximately 1.1 million de identified messages were randomly selected and labeled with LLM classifier for purpose, topic, and interaction type.
+Afterwards, xAI began conducting one-on-one conversations with some employees of the data annotation team.
 
-3. Employment data: approximately 130000 users' occupations and education (from publicly available sources), aggregated and analyzed through Clean Room data.
+During the communication process, these employees were asked to showcase their work results and how they can create value for xAI.
 
-Based on the above data, the paper finds that ChatGPT is mainly used to complete daily tasks.
+The rain is about to come and the wind is blowing all over the building. According to some employees, this series of interviews has created a sense of panic within xAI.
 
->Three quarters of the conversation focuses on practical guidance, information search, and writing. Writing is the most common job task, while programming and self-expression remain niche activities.
+As expected, last Thursday evening, xAI released an announcement on Slack * (a team collaboration tool similar to Feishu):
 
-The specific proportions of the three main types of usage are as follows:
+>Please ask some employees to put down their current work and participate in at least one test before tomorrow morning to determine their future roles in the company.
 
-+Practical guidance (28.8%): such as personalized fitness plans, creative ideas, skill teaching, etc;
-    
-+Information search (24.4%): Person/event information, recipes, product inquiries, etc;
-    
-+Writing (23.9%): email/document generation, text editing, translation, summarization, etc.
-    
+It is reported that the test covers traditional fields such as STEM, programming, finance, and medicine, as well as some more alternative directions, such as Grok's "Personality and Model Behavior" and "Joker and Addicted Screen Walker".
 
-However, demands such as computer programming and socializing (such as interpersonal reflection, game role-playing, etc.) are relatively small.
+In addition, there are tests aimed at improving chatbot security.
 
-![图片](/style/image/2025-09-16-1/2.png)
+After the announcement was released, over 100 employees expressed confusion on Slack, with one employee openly expressing dissatisfaction with the testing schedule.
 
-In addition, people's use of ChatGPT can also be divided into three categories: asking, doing, and expressing.
+>It's really shameful to do such things after people come home from work.
 
-It was found that approximately half of the messages (49%) belonged to the "inquiry" category, which is the fastest-growing and highest rated category by users, indicating that people are more inclined to view ChatGPT as a consultant, providing advice and decision-making references, rather than simply completing tasks.
+![图片](/style/image/2025-09-17/3.png)
 
-The "action" category accounts for 40%, of which about one-third is work-related, including drafting texts, planning, or programming.
+Rebellion did not have any effect, let alone prevent the bad news from spreading——
 
-The "expression" category accounts for 11%, mainly involving personal reflection, exploration, and entertainment, rather than clear problem seeking or specific tasks.
+Not long after the test ended, on Friday night, many data annotators received dismissal emails announcing that their journey at xAI had come to an end.
 
-![图片](/style/image/2025-09-16-1/3.png)
+The dismissal email reads as follows:
 
-To summarize, currently ChatGPT mainly serves as a consultant and is most commonly used for practical guidance, information retrieval, and writing.
+>After a comprehensive review of our human data work, we have decided to accelerate the expansion and prioritization of data annotators, while reducing our focus on ordinary AI data annotator positions.   
+>This strategic shift will take immediate effect. As part of this key shift, we no longer need most of the regular data annotator positions, and your employment with xAI will also be terminated.
 
-Important reminder: In order to protect user privacy during the research process, the core measures they have taken are as follows:
+*The data annotation team of xAI mainly consists of two parts: one is professional data annotators responsible for vertical fields such as STEM, programming, finance, law, and media; Another large part is the general data annotators responsible for tasks such as video annotation, audio annotation, and writing. ）*
 
-One is that when analyzing user messages, no one can directly view the original message content, but rather analyze the data after de identification and privacy information has been deleted through automated tools.
+According to the statistics on Slack chat rooms, the number of members in the data annotation team has dropped from 1500 to over 1000, which means nearly one-third of the employees have been laid off.
 
-Secondly, the research team is unable to directly access detailed information at the individual level and will not aggregate data for groups of less than 100 users.
+In sharp contrast, xAI's new recruitment notice:
 
-![图片](/style/image/2025-09-16-1/4.png)
+The company plans to expand the scale of professional data annotators by 10 times based on the existing foundation.
 
-So the next question is——
+![图片](/style/image/2025-09-17/4.png)
 
-##Who is using ChatGPT?
+##Elon Musk turns direction: betting on vertical AI fields
 
-The core observation drawn from the paper regarding the user population is that the gender gap in ChatGPT has significantly narrowed.
+For a long time, people have believed that more data is better.
 
-In the early stages (late 2022-2023), approximately 80% of active users had typical male names, but this year, the proportion of users with typical female names has reversed:
+However, the large tilt of xAI from a general data annotator to a professional data annotator this time may reflect Musk's bet on the opposite viewpoint - * * quality is more important than quantity * *.
 
->Male names have decreased to 48%, with females slightly surpassing males, and the gender usage gap has been basically eliminated.
+The benefit of doing so is that it can enhance Grok's ability and credibility in specific fields.
 
-![图片](/style/image/2025-09-16-1/5.png)
+But the drawbacks are also obvious. Relying on a smaller expert database may limit the diversity of data that the model can see. Artificial intelligence systems thrive on diversity, and overly shrinking training data may bring blind spots.
 
-From an age distribution perspective, users aged 18-25 are the most frequent users of ChatGPT among adult users, contributing 46% of the message volume. And the older the age, the higher the proportion of work-related news.
+For model manufacturers, the focus is on how to find a new balance between quality and quantity when the constraints change.
 
-In addition, from the perspective of the economic level of user distribution regions, ChatGPT has grown rapidly, especially in low - and middle-income countries.
+Since the high-quality corpus on the Internet has been exhausted, Scaling Law has ushered in the inflection point of diminishing marginal effects, the cost of model training has risen rapidly, and the development of large models has also entered the platform period.
 
-As of May this year, the growth rate of ChatGPT usage in low-income countries is more than four times that of high-income countries.
+In addition, although general models have stronger breadth, vertical models with relatively small parameter quantities are more likely to ensure accuracy and compliance in industries such as finance, healthcare, and law.
 
-![图片](/style/image/2025-09-16-1/6.png)
+In this context, the image of a unified universal model in the past is becoming increasingly blurred, while vertical scenes are flourishing.
 
-In summary, based on user data, ChatGPT is still being further popularized.
+Musk may have taken notice of this.
 
-For more details, please refer to the complete report.
+Therefore, the layoffs at xAI this time may not be a simple team restructuring, but a huge gamble aimed at the AI blue ocean of vertical industries.
+
+If successful, Grok is expected to establish advantages in vertical application areas of the industry.
+
+But if they fail, the Silicon Valley Iron Man team may stall on the Scaling Law track and be left behind by OpenAI and Anthropic.
+
+##Why does Musk like to lay off employees?
+
+As is well known, Musk's drastic dismantling of the company team is not a new thing.
+
+During the Model 3 production hell, Angry Old Ma laid off over 7000 employees within two years, which is just the number publicly disclosed by Tesla.
+
+During that time, unless absolutely necessary, Tesla employees would not easily pass by Musk's desk to avoid drawing his attention and endangering their careers with a single mistake.
+
+Tesla employees who were deeply affected by it even coined a term specifically for it - Elon's Angry Dismissal.
+
+This skill has been continuously released by Musk from Tesla to X, and now to xAI.
+
+In 2022, when Lao Ma took over Twitter, he also activated the "Angry Elon" mode, and within a week, he fired 3700 old Twitter employees, causing multiple departments of Twitter to be paralyzed.
+
+Why does Musk like driving people so much?
+
+This is closely related to his hardcore philosophy——
+
+**I enjoy leading a strong team in combat, with a particular emphasis on performance and efficiency. If I can't handle high-intensity work or can't achieve results, I'll leave.
+
+![图片](/style/image/2025-09-17/6.png)
+
+Specifically, Musk prefers small teams with strong technical capabilities and firmly opposes expanding the team size. He believes that smaller teams with strong abilities and proactive progress usually perform better than much larger teams for three main reasons:
+
+Firstly, small teams can mobilize fewer human resources, which can actually make them more creative, greedy, and busy.
+
+Secondly, small teams almost do not require middle-level managers, making it easier to access first-hand information and achieving higher communication efficiency.
+
+Thirdly, small teams run faster and can greatly shorten the iteration cycle.
+
+And the employees who have been carefully selected by Lao Ma are not always safe.
+
+Musk places great emphasis on performance and efficiency, with a low tolerance for low performers. Andrej Karpathy, former head of artificial intelligence at Tesla, mentioned that he sometimes even has to 'fight to keep some people'.
+
+>Most Silicon Valley companies tend to "pamper" their employees, while Musk tends to "force" them to give their all, and those who perform poorly will soon be removed from the team. I need to work hard to convince him to keep some people in the team.
+
+![图片](/style/image/2025-09-17/7.png)
+
+At the end of 2022, Musk issued a similar ultimatum to former Twitter employees via email at midnight, 'Focus on hardcore culture, otherwise, please leave with severance pay'.
+
+>Looking to the future, to build a breakthrough Twitter 2.0 and succeed in an increasingly competitive world, we need to be very hardcore, which means working long hours of high-intensity work, and only outstanding performance can be considered passing.
+
+But it has been proven that this approach does help stimulate the potential of the team.
+
+So will the layoffs at xAI make Grok Great rise?
 
 Reference link:
-\[1\] https://openai.com/index/how-people-are-using-chatgpt/   
-\[2\] https://x.com/dotey/status/1967580799844413915?s=46
+\[1\] https://economictimes.indiatimes.com/news/international/us/mass-layoffs-at-elon-musks-xai-500-data-workers-axed-as-grok-chatbot-faces-big-changes/articleshow/123870379.cms   
+\[2\] https://www.businessinsider.com/xai-management-shakeup-data-annotation-team-2025-9   
+\[3\] https://x.com/xai/status/1966677385056841884   
+\[4\] https://www.theguardian.com/technology/2025/may/05/elon-musk-doge-federal-government   
+\[5\] https://www.wired.com/story/elon-musk-tesla-life-inside-gigafactory/   
+\[6\] https://www.theverge.com/2022/11/16/23462026/elon-musk-twitter-email-hardcore-or-severance   
+\[7\] https://medium.com/the-low-end-disruptor/elon-musks-leadership-style-424343fe6cb3
