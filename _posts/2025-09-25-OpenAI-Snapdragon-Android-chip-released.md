@@ -3,7 +3,7 @@ layout: post
 title: Snapdragon Android chip released! Fully pave the way for agents
 date: 2025-09-25 11:00:00 +0800
 category: Frontier Trends
-thumbnail: /style/image/20250924.png
+thumbnail: /style/image/20250925.png
 icon: book
 ---
 * content
@@ -38,7 +38,6 @@ Qualcomm CEO Anmeng also simultaneously proposed six understandings of AI trends
 +Edge data correlation enhancement
     
 +6G will become a bridge connecting cloud edge devices
-    
 
 ![图片](/style/image/2025-09-25/1.png)
 
