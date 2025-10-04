@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI spent 17 hours writing a 30 page academic paper!
-date: 2025-10-04 15:30:00 +0800
+date: 2025-10-04 15:00:00 +0800
 category: Frontier Trends
 thumbnail: /style/image/20251004.png
 icon: lock
